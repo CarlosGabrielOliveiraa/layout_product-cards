@@ -15,8 +15,8 @@
 
   &__title {
     margin: 0 0 4px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     font-weight: 500;
     color: $text-accent-color;
   }
@@ -44,16 +44,17 @@
   }
 
   &__price-label {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
   }
 
   &__price {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     font-weight: bold;
     color: $text-accent-color;
   }
+
   &__buy {
     display: flex;
     justify-content: center;
@@ -65,20 +66,17 @@
     border-radius: 5px;
 
     font-size: 1.4rem;
-
-    font-size: 14px;
-    line-height: 16px;
-
+    line-height: 1.6rem;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 
     background-color: $main-color;
-  }
 
-  &__buy:hover {
-    color: $main-color;
-    background-color: #fff;
+    &:hover {
+      color: $main-color;
+      background-color: #fff;
+    }
   }
 }
